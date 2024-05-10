@@ -1,0 +1,48 @@
+/* shared styles */
+* {
+     margin: 1px;
+     padding: 1px;
+}
+body {
+     font-family:  cursive;
+     font-optical-sizing: auto;
+   }
+/* nav related styles */
+nav{
+     display:  flex;
+}
+.nav-title {
+     font-size: 35px;
+     font-weight: bold;
+}
+
+.text-primary {
+     color : #FD6E0A
+}
+nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+nav > ul {
+     display:  flex;
+}
+nav li {
+    list-style:  none;
+    margin-left: 10px;
+}
+
+nav a {
+     text-decoration:  none;
+     color: blueviolet;
+}
+.btn-primary {background: #FD6E0A
+     ;
+     color:  white;
+     padding:
+     10px 20px;
+     border : none;
+     border-radius: 5px;
+     font-weight: bold;
+     cursor: grab;
+}
